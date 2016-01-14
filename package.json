@@ -1,0 +1,32 @@
+{
+  "name": "intrinio-client",
+  "version": "0.0.1",
+  "description": "NodeJS client for the Intrinio API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jspenc72/intrinio-client.git"
+  },
+  "keywords": [
+    "Stock",
+    "Market",
+    "Real",
+    "Time",
+    "Data",
+    "API",
+    "Client",
+    "Intrinio"
+  ],
+  "author": "J Spencer <jspenc72@gmail.com> (https://github.com/jspenc72)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jspenc72/intrinio-client/issues"
+  },
+  "homepage": "https://github.com/jspenc72/intrinio-client",
+  "dependencies": {
+    "restler": "^3.4.0"
+  }
+}
