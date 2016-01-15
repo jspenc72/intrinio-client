@@ -1,9 +1,10 @@
 # intrinio-client
-- SDK that uses the intrinio REST API
-
-
+- SDK for interacting with the intrinio REST API
 
 ```js
+var username = "" //Your Intrinio App Username
+var password = "" //Your Intrinio App Password
+var intrinio = require("intrinio-client")(username, password)
 
 intrinio
 .ticker('AAPL')
@@ -26,12 +27,15 @@ $ npm install intrinio-client
 
 ## Features
 
-  * 
+  * Fast, easy configuration
 
 
 ## Docs & Community
 
   * [Website and Documentation](https://www.intrinio.com) - [[website repo](https://github.com/jspenc72/intrinio-client)]
+
+## Goals
+  * 100% Intrinio End Point Coverage
 
 ## Quick Start
 
