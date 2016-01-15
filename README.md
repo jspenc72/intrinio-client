@@ -53,17 +53,6 @@ intrinio.prices('AAPL')
 });
 ```
 
-* [Historical_data](http://community.intrinio.com/docs/api/#Company_News)
-
-```js
-
-intrinio.historical_data('AAPL')
-.on('complete', function(data, response) {
-
-});
-
-```
-
 * [Companies](http://community.intrinio.com/docs/api/#Companies)
 
 ```js
