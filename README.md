@@ -1,7 +1,7 @@
 [![Intrinio Logo](https://s3.amazonaws.com/intrinio-production/images/Intrinio+Logo/IntrinioLogo-Green-optimized.png)](http://www.intrinio.com)
 
 # intrinio-client
-- Unofficial NodeJS SDK for [Intrinio](http://www.intrinio.com)
+- **Unofficial** NodeJS SDK for [Intrinio](http://www.intrinio.com)
 - The most affordable and flexible financial data on the market.
 
 ## Quick Start
