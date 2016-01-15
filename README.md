@@ -1,5 +1,5 @@
 # intrinio-client
-- SDK for interacting with the intrinio REST API
+- Unnoficial SDK for interacting with the intrinio REST API
 
 ```js
 var username = "" //Your Intrinio App Username
@@ -7,15 +7,27 @@ var password = "" //Your Intrinio App Password
 var intrinio = require("intrinio-client")(username, password)
 
 intrinio
-.ticker('AAPL')
+.ticker('AAPL')			//All endpoints follow this pattern
 .on('complete', function(data, response) {
+	//data is the response from the Intrinio API
+	//response is the http response
 	if(response.statusCode==404){
-		console.log("Not found ticker")
+		console.log("Not found")
 	}else if(response.statusCode==200){
-		console.log("Everything is OK with .ticker!")
+		console.log(data)
 	}
-	console.log(data)
 });
+
+//Available Endpoints
+
+intrinio.prices('AAPL')
+intrinio.historical_data('AAPL')
+intrinio.companies('AAPL')
+intrinio.securities('AAPL')
+intrinio.indices('AAPL')
+intrinio.data_point('AAPL')
+intrinio.historical_data('AAPL')
+intrinio.news('AAPL')
 
 ```
 
@@ -33,9 +45,10 @@ $ npm install intrinio-client
 ## Docs & Community
 
   * [Website and Documentation](https://www.intrinio.com) - [[website repo](https://github.com/jspenc72/intrinio-client)]
+  * [NPM](https://www.npmjs.com/package/intrinio-client)
 
 ## Goals
-  * 100% Intrinio End Point Coverage
+  * 100% Intrinio End Point Coverage (Currently ~40%)
 
 ## Quick Start
 
