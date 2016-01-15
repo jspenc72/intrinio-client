@@ -1,5 +1,5 @@
 # intrinio-client
-- Unnoficial SDK for interacting with the intrinio API
+- Unnoficial SDK for interacting with the [Intrinio](http://www.intrinio.com) API
 - The most affordable and flexible financial data on the market.
 
 ## Quick Start
