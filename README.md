@@ -119,7 +119,7 @@ intrinio.historical_data('AAPL')
 
 ```
 
-* [News](http://community.intrinio.com/docs/api/#News)
+* [Company News](http://community.intrinio.com/docs/api/#Company_News)
 
 ```js
 
