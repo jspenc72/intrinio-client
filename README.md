@@ -11,7 +11,7 @@ $ cd newApp
 $ npm init 
 ```
 
-  Install dependencies:
+  Install intrinio-client as a dependency:
 
 ```
 $ npm install --save intrinio-client
@@ -39,14 +39,44 @@ intrinio
 //Available Endpoints
 
 intrinio.prices('AAPL')
-intrinio.historical_data('AAPL')
-intrinio.companies('AAPL')
-intrinio.securities('AAPL')
-intrinio.indices('AAPL')
-intrinio.data_point('AAPL')
-intrinio.historical_data('AAPL')
-intrinio.news('AAPL')
+.on('complete', function(data, response) {
 
+});
+
+intrinio.historical_data('AAPL')
+.on('complete', function(data, response) {
+
+});
+
+intrinio.companies('AAPL')
+.on('complete', function(data, response) {
+
+});
+
+intrinio.securities('AAPL')
+.on('complete', function(data, response) {
+
+});
+
+intrinio.indices('AAPL')
+.on('complete', function(data, response) {
+
+});
+
+intrinio.data_point('AAPL')
+.on('complete', function(data, response) {
+
+});
+
+intrinio.historical_data('AAPL')
+.on('complete', function(data, response) {
+
+});
+
+intrinio.news('AAPL')
+.on('complete', function(data, response) {
+
+});
 ```
 
 ## Installation
