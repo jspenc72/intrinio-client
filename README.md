@@ -1,7 +1,25 @@
 # intrinio-client
 - Unnoficial SDK for interacting with the intrinio REST API
 
+## Quick Start
+
+  Create the app:
+
+```bash
+$ mkdir newApp
+$ cd newApp
+$ npm init 
+```
+
+  Install dependencies:
+
+```
+$ npm install --save intrinio-client
+```
+
+
 ```js
+//index.js
 var username = "" //Your Intrinio App Username
 var password = "" //Your Intrinio App Password
 var intrinio = require("intrinio-client")(username, password)
@@ -49,23 +67,6 @@ $ npm install intrinio-client
 
 ## Goals
   * 100% Intrinio End Point Coverage (Currently ~40%)
-
-## Quick Start
-
-  Create the app:
-
-```bash
-$ mkdir newApp
-$ cd newApp
-$ npm init 
-```
-
-  Install dependencies:
-
-```
-$ npm install --save intrinio-client
-```
-
 
 ## Examples
 
