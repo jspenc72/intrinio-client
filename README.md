@@ -1,5 +1,5 @@
 # intrinio-client
-- Unofficial SDK for [Intrinio](http://www.intrinio.com)
+- Unofficial NodeJS SDK for [Intrinio](http://www.intrinio.com)
 - The most affordable and flexible financial data on the market.
 
 ## Quick Start
