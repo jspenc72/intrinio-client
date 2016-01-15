@@ -18,6 +18,7 @@ $ npm init
 $ npm install --save intrinio-client
 ```
 
+  Example Use
 
 ```js
 //index.js
@@ -37,42 +38,90 @@ intrinio
 	}
 });
 
+```
+```js
 //Available Endpoints
+```
 
+* [Endpoints](http://community.intrinio.com/docs/api/)
+* [Prices](http://community.intrinio.com/docs/api/#Prices)
+
+```js
 intrinio.prices('AAPL')
 .on('complete', function(data, response) {
 
 });
+```
+
+* [Historical_data](http://community.intrinio.com/docs/api/#Company_News)
+
+```js
 
 intrinio.historical_data('AAPL')
 .on('complete', function(data, response) {
 
 });
+
+```
+
+* [Companies](http://community.intrinio.com/docs/api/#Companies)
+
+```js
 
 intrinio.companies('AAPL')
 .on('complete', function(data, response) {
 
 });
 
+```
+
+* [Securities](http://community.intrinio.com/docs/api/#Securities)
+
+```js
+
 intrinio.securities('AAPL')
 .on('complete', function(data, response) {
 
 });
+
+```
+
+* [Indices](http://community.intrinio.com/docs/api/#Indices)
+
+```js
 
 intrinio.indices('AAPL')
 .on('complete', function(data, response) {
 
 });
 
+```
+
+* [Data Point](http://community.intrinio.com/docs/api/#Data_Point)
+
+```js
+
 intrinio.data_point('AAPL')
 .on('complete', function(data, response) {
 
 });
 
+```
+
+* [Historical Data](http://community.intrinio.com/docs/api/#Historical_Data)
+
+```js
+
 intrinio.historical_data('AAPL')
 .on('complete', function(data, response) {
 
 });
+
+```
+
+* [News](http://community.intrinio.com/docs/api/#News)
+
+```js
 
 intrinio.news('AAPL')
 .on('complete', function(data, response) {
