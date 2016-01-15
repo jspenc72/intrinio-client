@@ -118,7 +118,6 @@ intrinio.historical_data('AAPL')
 });
 
 ```
-
 * [Company News](http://community.intrinio.com/docs/api/#Company_News)
 
 ```js
