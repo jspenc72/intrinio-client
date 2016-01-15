@@ -1,7 +1,6 @@
 var rest = require('restler');
 module.exports = function (username, password) {
 	'use strict';
-
 	var Intrinio = rest.service(function(u, p) {
 	  this.defaults.username = u;
 	  this.defaults.password = p;

@@ -1,6 +1,6 @@
 var username = "" //Your Username
 var password = "" //Your Password
-var intrinio = require("./index.js")(username, password)
+var intrinio = require("../index.js")(username, password)
 
 intrinio
 .ticker('AAPL')
