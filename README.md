@@ -39,11 +39,11 @@ intrinio
 });
 
 ```
+* [API Endpoints](http://community.intrinio.com/docs/api/)
+
 ```js
 //Available Endpoints
 ```
-
-* [Endpoints](http://community.intrinio.com/docs/api/)
 * [Prices](http://community.intrinio.com/docs/api/#Prices)
 
 ```js
