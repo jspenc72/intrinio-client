@@ -163,7 +163,7 @@ $ npm test
 
 ## People
 
-The original author of The original author of Intrinio-Client is [@Jspenc72](https://github.com/jspenc72)
+The original author of Intrinio-Client is [@Jspenc72](https://github.com/jspenc72)
 ## License
 
   [MIT](LICENSE)
