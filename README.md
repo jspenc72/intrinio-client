@@ -5,6 +5,17 @@
 
 ```js
 
+intrinio
+.ticker('AAPL')
+.on('complete', function(data, response) {
+	if(response.statusCode==404){
+		console.log("Not found ticker")
+	}else if(response.statusCode==200){
+		console.log("Everything is OK with .ticker!")
+	}
+	console.log(data)
+});
+
 ```
 
 ## Installation
@@ -17,9 +28,10 @@ $ npm install intrinio-client
 
   * 
 
+
 ## Docs & Community
 
-
+  * [Website and Documentation](https://www.intrinio.com) - [[website repo](https://github.com/jspenc72/intrinio-client)]
 
 ## Quick Start
 
@@ -29,8 +41,6 @@ $ npm install intrinio-client
 $ mkdir newApp
 $ cd newApp
 $ npm init 
-$
-$ 
 ```
 
   Install dependencies:
