@@ -1,6 +1,6 @@
 {
   "name": "intrinio-client",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "NodeJS client for the Intrinio API",
   "main": "index.js",
   "scripts": {
