@@ -1,5 +1,5 @@
-var username = "6228032fc25b59e3363e75bacc6a3960" //Your Username
-var password = "2d430177512f8414445162122a70c921" //Your Password
+var username = "" //Your Username
+var password = "" //Your Password
 var intrinio = require("../index.js")(username, password)
 
 var updateFrequency = 1005		//Duration between each request
