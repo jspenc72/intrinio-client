@@ -67,7 +67,7 @@ intrinio
   })  
 })
 
-//Be careful, 'watch' will easily use up your daily quota if a large number of requests are sent.
+//Be careful, 'watch' will easily use up your daily quota if a large number of requests are sent with a very high frequency.
 
 ```
 
