@@ -164,7 +164,8 @@ $ npm install intrinio-client
   * [Website](https://www.intrinio.com) - [[website repo](https://github.com/jspenc72/intrinio-client)]
   * [Docs](http://community.intrinio.com/docs/api/)
   * [NPM](https://www.npmjs.com/package/intrinio-client)
-  * [Listing](http://community.intrinio.com/docs/api/#SDKs)
+  * [Listing](http://community.intrinio.com/docs/api/#SDKs)   http://community.intrinio.com/docs/api/#SDKs
+  * 
 
 ## Goals
   * 100% Intrinio End Point Coverage (Currently ~40%)
